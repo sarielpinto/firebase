@@ -49,7 +49,6 @@ tools:context=".SignupActivity">
             android:layout_height="wrap_content"
             android:focusableInTouchMode="true"
             android:hint="@string/hint_password"
-            android:imeActionId="@+id/login"
             android:imeOptions="actionUnspecified"
             android:inputType="textPassword"
             android:maxLines="1"
@@ -79,7 +78,8 @@ tools:context=".SignupActivity">
         android:textAllCaps="false"
         android:textColor="@color/colorAccent" />
 
-    <!-- Link to Login Screen -->
+
+    <!-- Enlace a la pantalla de inicio de sesión -->
 
     <Button
         android:id="@+id/sign_in_button"
