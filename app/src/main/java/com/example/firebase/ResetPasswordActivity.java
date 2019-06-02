@@ -32,6 +32,7 @@ public class ResetPasswordActivity extends AppCompatActivity {
         btnReset = (Button) findViewById(R.id.btn_reset_password);
         btnBack = (Button) findViewById(R.id.btn_back);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        auth=FirebaseAuth.getInstance();
 /*
 PARA EL MAINACTIVITY.JAVA
 
